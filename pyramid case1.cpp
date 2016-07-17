@@ -5,11 +5,10 @@
 using namespace  std;
 int main( )
 {
-	char y;
+	char p;
 	string username="";
 	string password="";
 	bool LoginSuccess=false;
-	int a,b,c,d,e,f,g;
 	
 	
 	
@@ -37,11 +36,6 @@ int main( )
 	{
 	
 
-
-
-	
-	
-   for (a=1;a<=10;a=a+1)
    
    {
    	   
@@ -63,7 +57,7 @@ int main( )
           
           
         menu:  
-       int b;
+       int b,l;
     
     cout<<"\t\t\t\t Choose an Animation?"<<endl;
     cout<<"1.Pyramid\n";
@@ -71,9 +65,9 @@ int main( )
 	cout<<"3.Airboster \n";
 	cout<<"4.Racer \n";
 cout<<"Enter the number of your Choice: ";
-cin>>a;
+cin>>l;
 
-switch(a)
+switch(l)
 {
 
 case 1:
@@ -340,28 +334,18 @@ system("cls");
             
 }
 
- cout<<"\n Return to Menu? (Y or N) ";
-    cin>>a;
-    
-    
-    if((b=='y' || b=='Y'))
-              {
-			  
-                system("CLS");			  
-                goto menu;
-}
-	else if((b=='n' || b=='N' ))
-	       {
-			   
-                system("CLS");			  
-                exit (0);    	
-                
-        }
-     break;       
-	{
-system("pause");
-return 0;	
-}		                                     	
+  cout<<"Return to Main Menu <Y or N>: ";
+    cin>>p;
+   if((p=='Y'||p=='y'))
+     {
+         system("cls");
+        goto menu;
+ 	}
+ 	else((p=='N'||p=='n'));
+ 	{
+ 		system("cls");
+ 		exit(0);
+ 	}                      	
 
 
 
@@ -662,28 +646,18 @@ system("cls");
             
 }
 
- cout<<"\n Return to Menu? (Y or N) ";
-    cin>>a;
-    
-    
-    if((a=='y' || a=='Y'))
-              {
-			  
-                system("CLS");			  
-                goto menu;
-}
-	else if((a=='n' || a=='N' ))
-	       {
-			   
-                system("CLS");			  
-                exit (0);    	
-                
-        }
-     break;       
+  cout<<"Return to Main Menu <Y or N>: ";
+    cin>>p;
+    if((p=='Y'||p=='y'))
+    {
+       system("cls");
+       goto menu;
+	}
+	else((p=='N'||p=='n'));
 	{
-system("pause");
-return 0;	
-}		                                     	
+		system("cls");
+		exit(0);
+	}                  	
 
 
 case 3:
@@ -1016,28 +990,18 @@ system("cls");
 		
 	}
 
- cout<<"\n Return to Menu? (Y or N) ";
-    cin>>a;
-    
-    
-    if((a=='y' || a=='Y'))
-              {
-			  
-                system("CLS");			  
-                goto menu;
-}
-	else if((a=='n' || a=='N' ))
-	       {
-			   
-                system("CLS");			  
-                exit (0);    	
-                
-        }
-     break;       
+  cout<<"Return to Main Menu <Y or N>: ";
+     cin>>p;
+     if((p=='Y'||p=='y'))
+    {
+        system("cls");
+        goto menu;
+	}
+	else((p=='N'||p=='n'));
 	{
-system("pause");
-return 0;	
-}		                                     	
+		system("cls");
+		exit(0);
+	}                	
 
 
 
@@ -1172,67 +1136,25 @@ case 4:
 		cout<<"                    **(____|   |__|  "<<endl;
 		cout<<"_____________________________________________________________________________"<<endl;
 		Sleep(500);
-		Sleep(500);
 		}
+	 
+	 
+	 
+	 
 
- cout<<"\n Return to Menu? (Y or N) ";
-    cin>>a;
-    
-    
-    if((a=='y' || a=='Y'))
-              {
-			  
-                system("CLS");			  
-                goto menu;
-}
-	else if((a=='n' || a=='N' ))
-	       {
-			   
-                system("CLS");			  
-                exit (0);    	
-                
-        }
-     break;
-	 
-	 
-	 
-	 
-	 default:
-	cout<<"INVALID INPUT"<<endl;
-	cout<<"\n Return to Menu? (Y or N) ";
-    cin>>f;
-	
-		}
 
- cout<<"\n Return to Menu? (Y or N) ";
-    cin>>a;
-    
-    
-    if((f=='y' || f=='Y'))
-              {
-			  
-                system("CLS");			  
-                goto menu;
-}
-	else if((f=='n' || f=='N' ))
-	       {
-			   
-                system("CLS");			  
-                exit (0);    	
-                
-        }
-     break;
-	 
-	
-	
-	
-	
-	
-	       
+  cout<<"Return to Main Menu <Y or N>: ";
+    cin>>p;
+    if((p=='Y'||p=='y'))
+    {
+        system("cls");
+        goto menu;
+	}
+	else((p=='N'||p=='n'));
 	{
-system("pause");
-return 0;	
-}		                                     	
+		system("cls");
+		exit(0);
+	}                             	
 
 
 
@@ -1246,14 +1168,15 @@ return 0;
 
 }
 }
+}
+}
 
 }
+}
+
+}}
 
 
-}
-}
-}
-}
 
 
 
